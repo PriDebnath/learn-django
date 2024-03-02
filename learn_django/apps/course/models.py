@@ -8,4 +8,4 @@ class Course(models.Model):
     desc = models.CharField(max_length=80)
 
     def __str__(self):
-        return self.name  # Returned value will represent the Model
+        return self.title  # Returned value will represent the Model
