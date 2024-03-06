@@ -39,12 +39,16 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
 ]
 
-PROJECT_APPS = [
-    "learn_django.apps.course",
-    "learn_django.apps.student"
+INSTALLED_PACKAGES = [
+    "rest_framework",
 ]
 
-INSTALLED_APPS = INSTALLED_APPS + PROJECT_APPS
+PROJECT_APPS = [
+    "learn_django.apps.course",
+    "learn_django.apps.student",
+]
+
+INSTALLED_APPS = INSTALLED_APPS + INSTALLED_PACKAGES + PROJECT_APPS
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",

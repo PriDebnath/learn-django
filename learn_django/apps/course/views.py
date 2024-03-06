@@ -7,6 +7,12 @@ from django.forms.models import model_to_dict
 from django.utils.decorators import method_decorator
 from django.views.decorators.csrf import csrf_exempt
 
+# @drf
+from rest_framework.response import Response
+from rest_framework import status, viewsets, generics, filters
+from learn_django.apps.course.serializers import CourseModelSerializer
+from rest_framework.decorators import api_view, permission_classes, throttle_classes
+
 # @models
 from learn_django.apps.course.models import Course
 
@@ -89,7 +95,7 @@ class CourseListView(View):
 
     def get(self, request, *args, **kwargs):
         course_id = kwargs.get("course_id")
-        
+
         if course_id is not None:
             # Retrieve details of a specific course
             course = Course.objects.get(id=course_id)
@@ -150,3 +156,28 @@ class CourseListView(View):
         course_query_set = Course.objects.get(id=course_id)
         course_query_set.delete()
         return JsonResponse({}, status=204)
+
+
+#
+# Class based view end
+
+#
+# Django Rest Framework  start
+
+
+@api_view(["GET", "POST"])
+def get_course_list_api_view(request):
+    if request.method == "GET":
+        course_list_query_set = Course.objects.all()
+        serialized_courses = CourseModelSerializer(course_list_query_set, many=True)
+        return Response(serialized_courses.data, status=status.HTTP_200_OK)
+
+    if request.method == "POST":
+        book = CourseModelSerializer(data=request.data)
+        print(book)
+        if book.is_valid(raise_exception=True):
+            return Response(request.data)
+
+
+#
+# Django Rest Framework  end
