@@ -15,5 +15,8 @@ urlpatterns = [
     path(f"{CLASS_PREFIX}/courses/<int:course_id>", views.CourseListView.as_view()),
     # Drf
     path(f"{DRF_PREFIX}/courses-api-view", views.get_course_list_api_view),
-
+    path(
+        f"{DRF_PREFIX}/courses-model-view-set-no-validate",
+        views.CourseModelViewSetNoValidation.as_view({"get": "list", "post": "create"}),
+    ),
 ]

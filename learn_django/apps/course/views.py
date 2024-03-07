@@ -10,7 +10,10 @@ from django.views.decorators.csrf import csrf_exempt
 # @drf
 from rest_framework.response import Response
 from rest_framework import status, viewsets, generics, filters
-from learn_django.apps.course.serializers import CourseModelSerializer
+from learn_django.apps.course.serializers import (
+    CourseModelSerializer,
+    CourseModelNoValidationSerializer,
+)
 from rest_framework.decorators import api_view, permission_classes, throttle_classes
 
 # @models
@@ -177,6 +180,32 @@ def get_course_list_api_view(request):
         print(book)
         if book.is_valid(raise_exception=True):
             return Response(request.data)
+
+
+class CourseModelViewSetNoValidation(viewsets.ModelViewSet):
+    queryset = Course.objects.all()
+    serializer_class = CourseModelNoValidationSerializer
+
+    def list(
+        self, request, *args, **kwargs
+    ):  # list method handles get request, when there is no primary key at the end of the url
+        queryset = self.get_queryset()  # refering class's queryset
+        serializer = self.get_serializer(
+            queryset, many=True
+        )  # get_serializer is a method provided by the ModelViewSet class.
+        return Response(serializer.data)
+
+    def create(self, request, *args, **kwargs):  # handle post request
+        serializer = self.get_serializer(data=request.data)
+        if serializer.is_valid():
+            self.perform_create(serializer)
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def perform_create(self, serializer):
+        print("can add additional steps before saving the data")
+        serializer.save()
+        print("saved data =>", serializer.data)
 
 
 #
