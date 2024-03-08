@@ -10,3 +10,11 @@ class Course(models.Model):
 
     def __str__(self):
         return self.title  # Returned value will represent the Model
+
+
+class CourseCategory(models.Model):
+    title = models.CharField(max_length=80)
+    course = models.ForeignKey(Course, on_delete=models.SET_NULL, null=True)
+
+    def __str__(self):
+        return self.title + " - " + self.course
