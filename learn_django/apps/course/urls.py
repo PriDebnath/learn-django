@@ -19,4 +19,8 @@ urlpatterns = [
         f"{DRF_PREFIX}/courses-model-view-set-no-validate",
         views.CourseModelViewSetNoValidation.as_view({"get": "list", "post": "create"}),
     ),
+    path(
+        f"{DRF_PREFIX}/courses-list-create-generic",
+        views.CourseListCreateGenericAPIView.as_view(),
+    ),
 ]

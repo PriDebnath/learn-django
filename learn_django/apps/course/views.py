@@ -3,6 +3,7 @@ import json
 from django.views import View
 from django.shortcuts import render
 from django.http import JsonResponse
+from django.core.paginator import Paginator
 from django.forms.models import model_to_dict
 from django.utils.decorators import method_decorator
 from django.views.decorators.csrf import csrf_exempt
@@ -12,6 +13,7 @@ from rest_framework.response import Response
 from rest_framework import status, viewsets, generics, filters
 from learn_django.apps.course.serializers import (
     CourseModelSerializer,
+    CourseWithCategorySerializer,
     CourseModelNoValidationSerializer,
 )
 from rest_framework.decorators import api_view, permission_classes, throttle_classes
@@ -206,6 +208,84 @@ class CourseModelViewSetNoValidation(viewsets.ModelViewSet):
         print("can add additional steps before saving the data")
         serializer.save()
         print("saved data =>", serializer.data)
+
+
+class CourseListCreateGenericAPIView(generics.ListCreateAPIView):
+    queryset = Course.objects.all()
+    serializer_class = CourseWithCategorySerializer
+
+#   filter_backends = [filters.SearchFilter]
+#   search_fields=['title']
+
+# class CourseViewSet(viewsets.ViewSet):
+#   """
+#   ViewSet is amazing it automatically understand and
+#   generate urls based on methods
+#   """
+
+#   def list(self, request):
+#     queryset = Course.objects.all()
+
+#     # filtering using query params
+#     category_param = request.query_params.get('category')
+#     if category_param:
+#       queryset = queryset.filter(category=category_param)
+
+#     # query param in nested
+#     category_name_param = request.query_params.get('category_name')
+#     if category_name_param:
+#       queryset = queryset.filter(category__title=category_name_param) # category__title use the double underscore
+
+#     # searching
+#     search_param = request.query_params.get('search')
+#     if search_param:
+#       queryset = queryset.filter(title__icontains = search_param)
+
+#     # ordering
+#     order_params = request.query_params.get('order')
+#     if order_params:
+#       order_fields = order_params.split(",")
+#       queryset = queryset.order_by(*order_fields)
+#       #http://localhost:8000/course/view-set?order=price,-id
+
+#     # pagination
+#     per_page_params = request.query_params.get('perPage', default=2)
+#     page_params = request.query_params.get('page', default=1)
+#     count = len(queryset)
+#     paginator = Paginator(queryset,per_page=per_page_params)
+#     try:
+#       queryset = paginator.page(number=page_params)
+#     except:
+#       queryset = []
+#     #
+#     book_list = BookModelSerializer(queryset,many=True)
+
+#     return Response({
+#       "count": count,
+#       "results": book_list.data
+#     })
+
+#   def retrieve(self, request, pk):
+#     return Response({"message": "get single object - using ViewSet"})
+
+#   def post(self, request):
+#     book = BookModelSerializer(data=request.data)
+#     book.is_valid(raise_exception=True)
+#     if book.is_valid():
+#       book.save()
+#       print("book---")
+#       print(book)
+#       print("book.data---")
+#       print(book.data)
+#       return Response(book.data, status=status.HTTP_201_CREATED)
+#     return Response(book.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+#   def patch(self, request, pk):
+#     return Response({"message": "patch - using ViewSet"})
+
+#   def delete(self, request, pk):
+#     return Response({"message": "delete - using ViewSet"})
 
 
 #
