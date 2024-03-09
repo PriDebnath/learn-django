@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/5.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
-
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -110,6 +110,54 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+DJANGO_LOG_LEVEL = os.environ.get("DJANGO_LOG_LEVEL", "INFO")
+
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "root": {"level": DJANGO_LOG_LEVEL, "handlers": ["file"]},
+    "handlers": {
+        "file": {
+            "level": DJANGO_LOG_LEVEL,
+            "class": "logging.handlers.RotatingFileHandler",
+            "filename": "./debug.log",
+            "formatter": "app",
+            "maxBytes": 1024 * 1024 * 10,  # 10 mb
+            "backupCount": 5,
+        },
+        "console": {
+            "class": "logging.StreamHandler",
+            "level": DJANGO_LOG_LEVEL,
+        },
+        "mail_admins": {
+            "level": "ERROR",
+            "class": "django.utils.log.AdminEmailHandler",
+        },
+        "gunicorn": {
+            "level": "INFO",
+            "class": "logging.handlers.RotatingFileHandler",
+            "formatter": "app",
+            "filename": "./debug.log",
+            "maxBytes": 1024 * 1024 * 10,  # 10 mb
+            "backupCount": 10,
+        },
+    },
+    "loggers": {
+        "django": {
+            "handlers": ["file", "console", "mail_admins", "gunicorn"],
+            "level": DJANGO_LOG_LEVEL,
+            "propagate": True,
+        },
+    },
+    "formatters": {
+        "app": {
+            "format": (
+                "%(asctime)s [%(levelname)-8s] " "(%(module)s.%(funcName)s) %(message)s"
+            ),
+            "datefmt": "%Y-%m-%d %H:%M:%S",
+        },
+    },
+}
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
