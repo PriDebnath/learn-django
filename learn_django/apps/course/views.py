@@ -1,6 +1,8 @@
 # Create your views here.
 import json
+import logging
 from django.views import View
+from django.db.models import Q
 from django.shortcuts import render
 from django.http import JsonResponse
 from django.core.paginator import Paginator
@@ -210,12 +212,26 @@ class CourseModelViewSetNoValidation(viewsets.ModelViewSet):
         print("saved data =>", serializer.data)
 
 
-class CourseListCreateGenericAPIView(generics.ListCreateAPIView):
+class CourseModelViewSet(viewsets.ModelViewSet):
+    queryset = Course.objects.all()
+    # filtering
+    # queryset = queryset.filter(id=1)
+    # filtering with Q
+    # queryset = queryset.filter(Q(id=1))
+    queryset = queryset.filter(
+        ~Q(id=1) & Q(id__gt=6)
+    )  # get courses whose id is not equal to 1 and greater than 6
+    serializer_class = CourseModelSerializer
+
+
+class CourseListCreateGenericAPIView(
+    generics.ListCreateAPIView
+):  # @ListCreateAPIView use for getting a list of data or creating
     queryset = Course.objects.all()
     serializer_class = CourseWithCategorySerializer
+    filter_backends = [filters.SearchFilter]
+    search_fields = ["title"]
 
-#   filter_backends = [filters.SearchFilter]
-#   search_fields=['title']
 
 # class CourseViewSet(viewsets.ViewSet):
 #   """

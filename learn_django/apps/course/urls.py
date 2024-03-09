@@ -23,4 +23,8 @@ urlpatterns = [
         f"{DRF_PREFIX}/courses-list-create-generic",
         views.CourseListCreateGenericAPIView.as_view(),
     ),
+    path(
+        f"{DRF_PREFIX}/filter-courses-with-q",
+        views.CourseModelViewSet.as_view({'get':'list'}),
+    ),
 ]

@@ -1,3 +1,4 @@
+import logging
 from rest_framework import serializers
 from rest_framework.validators import UniqueValidator
 from learn_django.apps.course.models import Course, CourseCategory
@@ -69,7 +70,9 @@ class CourseWithCategorySerializer(serializers.ModelSerializer):
     This allows you to use # categories = serializers.SerializerMethodField() to access related categories.
     """
 
-    categories = CourseCategorySerializer(many=True, read_only=True)
+    categories = CourseCategorySerializer(
+        many=True, read_only=True
+    )  # see the property while  read
 
     class Meta:
         model = Course
