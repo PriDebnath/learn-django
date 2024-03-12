@@ -329,3 +329,5 @@ class CourseViewSet(viewsets.ViewSet):
 
 #
 # Django Rest Framework  end
+
+#mobile changes
