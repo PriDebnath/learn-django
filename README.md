@@ -1,1 +1,5 @@
-# learn-django
+
+
+```
+python --version
+```
