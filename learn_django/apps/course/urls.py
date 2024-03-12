@@ -27,4 +27,8 @@ urlpatterns = [
         f"{DRF_PREFIX}/filter-courses-with-q",
         views.CourseModelViewSet.as_view({'get':'list'}),
     ),
+    path(
+        f"{DRF_PREFIX}/courses-viewset",
+        views.CourseViewSet.as_view({'get':'list'}),
+    ),
 ]

@@ -233,53 +233,60 @@ class CourseListCreateGenericAPIView(
     search_fields = ["title"]
 
 
-# class CourseViewSet(viewsets.ViewSet):
-#   """
-#   ViewSet is amazing it automatically understand and
-#   generate urls based on methods
-#   """
+class CourseViewSet(viewsets.ViewSet):
+    """
+      This shows how we can set up
+    searching, ordering, filtering,
+    nested filtering, ordering
+    and pagination manually
+    """
 
-#   def list(self, request):
-#     queryset = Course.objects.all()
+    def list(self, request):
+        queryset = Course.objects.all()
+        count = queryset.count()
+        
+        #
+        ## filtering using query params ## http://localhost:8000/drf/courses-viewset?categories=1
+        categories_param = request.query_params.get("categories")
+        if categories_param:
+            queryset = queryset.filter(categories=categories_param)
 
-#     # filtering using query params
-#     category_param = request.query_params.get('category')
-#     if category_param:
-#       queryset = queryset.filter(category=category_param)
+        #
+        ## Nested filtering using query params ## http://localhost:8000/drf/courses-viewset?categories__id=1
+        categories_id_param = request.query_params.get("categories__id")
+        if categories_id_param:
+            queryset = queryset.filter(
+                categories__id=categories_id_param
+            )  # categories__id use the double underscore for nested case
 
-#     # query param in nested
-#     category_name_param = request.query_params.get('category_name')
-#     if category_name_param:
-#       queryset = queryset.filter(category__title=category_name_param) # category__title use the double underscore
+        #
+        ## searching  ## http://localhost:8000/drf/courses-viewset?search=c%206
+        search_param = request.query_params.get("search")
+        if search_param:
+            queryset = queryset.filter(title__icontains=search_param)
 
-#     # searching
-#     search_param = request.query_params.get('search')
-#     if search_param:
-#       queryset = queryset.filter(title__icontains = search_param)
+        #
+        ## ordering  ## http://localhost:8000/course/view-set?order=price,-id
+        order_params = request.query_params.get("order")
+        if order_params:
+            order_fields = order_params.split(",")
+            queryset = queryset.order_by(*order_fields)
 
-#     # ordering
-#     order_params = request.query_params.get('order')
-#     if order_params:
-#       order_fields = order_params.split(",")
-#       queryset = queryset.order_by(*order_fields)
-#       #http://localhost:8000/course/view-set?order=price,-id
+        #
+        ## pagination  ## http://localhost:8000/drf/courses-viewset?perPage=3&page=2
+        per_page_params = request.query_params.get("perPage", default=6)
+        page_params = request.query_params.get("page", default=1)
+        paginator = Paginator(queryset, per_page=per_page_params)
+        try:
+            queryset = paginator.page(number=page_params)
+        except:
+            queryset = []
 
-#     # pagination
-#     per_page_params = request.query_params.get('perPage', default=2)
-#     page_params = request.query_params.get('page', default=1)
-#     count = len(queryset)
-#     paginator = Paginator(queryset,per_page=per_page_params)
-#     try:
-#       queryset = paginator.page(number=page_params)
-#     except:
-#       queryset = []
-#     #
-#     book_list = BookModelSerializer(queryset,many=True)
+        # book_list = CourseModelSerializer(queryset,many=True)
+        book_list = CourseWithCategorySerializer(queryset, many=True)
 
-#     return Response({
-#       "count": count,
-#       "results": book_list.data
-#     })
+        return Response({"count": count, "results": book_list.data})
+
 
 #   def retrieve(self, request, pk):
 #     return Response({"message": "get single object - using ViewSet"})
@@ -303,6 +310,22 @@ class CourseListCreateGenericAPIView(
 #   def delete(self, request, pk):
 #     return Response({"message": "delete - using ViewSet"})
 
+# @api_view()
+# @permission_classes([IsAuthenticated])
+# def secret (request):
+#   return Response({"message": 'here is secret'})
+# @api_view()
+# #@permission_classes([IsAuthenticated])
+# def manager_view (request):
+#   print (request.user)
+#   if request.user.groups.filter(name="Manager"). exists():
+#     return Response({"message": 'here is secret'})
+#   else:
+#     return Response({"message":"you are not Manager"})
+# @api_view()
+# @throttle_classes([AnonRateThrottle])
+# def check_throttle (request):
+#   return Response({"message": 'here is secret'}) (edited)
 
 #
 # Django Rest Framework  end
