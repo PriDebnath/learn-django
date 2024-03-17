@@ -19,4 +19,5 @@ class CourseCategory(models.Model):
     )
 
     def __str__(self):
-        return self.title + " - " + self.course.title
+       course_title = self.course.title if self.course else 'Unknown'
+       return f"{self.title} - {course_title}"

@@ -57,29 +57,29 @@ class CourseModelNoValidationSerializer(serializers.ModelSerializer):
 
 
 class CourseCategorySerializer(serializers.ModelSerializer):
+    id = serializers.IntegerField(required=False)
     class Meta:
         model = CourseCategory
         fields = ["id", "title"]
 
 
 class CourseWithCategorySerializer(serializers.ModelSerializer):
-    # categories = serializers.SerializerMethodField()
+    categories = CourseCategorySerializer(many=True)  # Nested serializer for categories
+    categories_method_field = serializers.SerializerMethodField() # by default SerializerMethodField is read-only , so it won't apear in validated_data in create method
+
     """
     ## Method 1:  to get categories of a course :
     Add related_name='categories' to the ForeignKey field in the CourseCategory model.
     This allows you to use # categories = serializers.SerializerMethodField() to access related categories.
     """
 
-    categories = CourseCategorySerializer(
-        many=True, read_only=True
-    )  # see the property while  read
-
     class Meta:
         model = Course
-        fields = ["id", "title", "price", "categories"]
-
-        def get_categories(self, obj):
-            categories = obj.coursecategory_set.all()
+        fields = ["id", "title", "price" , "categories","categories_method_field"]
+       
+    def get_categories_method_field(self, obj):
+            categories = obj.categories.all() # using related_name
+            #categories = obj.coursecategory_set.all()
             """
             ## Method 2: Explain: categories = obj.coursecategory_set.all() ## In Django,
             when you define a ForeignKey relationship from one model to another,
@@ -88,5 +88,17 @@ class CourseWithCategorySerializer(serializers.ModelSerializer):
             since you have a ForeignKey relationship from CourseCategory to Course .
             Django creates a reverse relation on the Course model, and the default name for this relation is
             coursecategory_set. This allows you to access all related CourseCategory objects for a given Course instance.
+            This won't work if you already set a related_name.
             """
             return CourseCategorySerializer(categories, many=True).data
+  
+  
+    def create(self,validated_data):
+        categories_data = validated_data.pop("categories", [])
+        course = Course.objects.create(**validated_data)
+        # Associate categories with the course
+        for category in categories_data:
+            category_instance = CourseCategory.objects.get(pk=category["id"])
+            course.categories.add(category_instance)
+        return course
+  
