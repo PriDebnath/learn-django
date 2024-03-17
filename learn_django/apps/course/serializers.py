@@ -49,44 +49,62 @@ class CourseModelSerializer(serializers.ModelSerializer):
         return obj.price + 8
 
 
-class CourseModelNoValidationSerializer(serializers.ModelSerializer):
-
-    class Meta:
-        model = Course
-        fields = ["id", "title"]
-
-
 class CourseCategorySerializer(serializers.ModelSerializer):
     class Meta:
         model = CourseCategory
         fields = ["id", "title"]
 
 
+class CourseModelNoValidationSerializer(serializers.ModelSerializer):
+    categories = CourseCategorySerializer(many=True, read_only=True)
+
+    class Meta:
+        model = Course
+        fields = ["id", "title", "categories"]
+
+
 class CourseWithCategorySerializer(serializers.ModelSerializer):
-    # categories = serializers.SerializerMethodField()
+    categories = serializers.SerializerMethodField()
     """
     ## Method 1:  to get categories of a course :
     Add related_name='categories' to the ForeignKey field in the CourseCategory model.
     This allows you to use # categories = serializers.SerializerMethodField() to access related categories.
     """
 
-    categories = CourseCategorySerializer(
-        many=True, read_only=True
-    )  # see the property while  read
+    # categories = CourseCategorySerializer(many=True, read_only=True)
 
     class Meta:
         model = Course
         fields = ["id", "title", "price", "categories"]
+        # fields = ["__all__"]
 
-        def get_categories(self, obj):
-            categories = obj.coursecategory_set.all()
-            """
-            ## Method 2: Explain: categories = obj.coursecategory_set.all() ## In Django,
-            when you define a ForeignKey relationship from one model to another,
-            Django automatically creates a reverse relation on the related model.
-            This reverse relation is named by default as <model_name>_set. In your case,
-            since you have a ForeignKey relationship from CourseCategory to Course .
-            Django creates a reverse relation on the Course model, and the default name for this relation is
-            coursecategory_set. This allows you to access all related CourseCategory objects for a given Course instance.
-            """
-            return CourseCategorySerializer(categories, many=True).data
+    def get_categories(self, obj):
+        categories = obj.categories.all()
+        """
+        ## Method 2: Explain: categories = obj.coursecategory_set.all() ## In Django,
+        when you define a ForeignKey relationship from one model to another,
+        Django automatically creates a reverse relation on the related model.
+        This reverse relation is named by default as <model_name>_set. In your case,
+        since you have a ForeignKey relationship from CourseCategory to Course .
+        Django creates a reverse relation on the Course model, and the default name for this relation is
+        coursecategory_set. This allows you to access all related CourseCategory objects for a given Course instance.
+        Or if you have set some related name you can directly use that related name . 
+        related_name="categories"
+        """
+        return CourseCategorySerializer(categories, many=True).data
+
+    def create(self, validated_data):
+        print("\033[34m" + f"validated_data=>{validated_data}" + "\033[0m")
+        categories_data = validated_data.pop("categories", [])
+        print("\033[34m" + f"=>{categories_data}" + "\033[0m")
+
+        course = Course.objects.create(**validated_data)
+        print("\033[34m" + f"=>{course}" + "\033[0m")
+
+        # Assuming categories_ data contains the primary keys of existing categories
+        for category_pk in categories_data:
+            print("\033[34m" + f"=>{category_pk}" + "\033[0m")
+            category = CourseCategory.objects.get(pk=category_pk)
+            course.categories.add(category)
+
+        return course

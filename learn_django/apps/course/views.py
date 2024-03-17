@@ -3,21 +3,22 @@ import json
 import logging
 from django.views import View
 from django.db.models import Q
-from django.shortcuts import render
 from django.http import JsonResponse
-from django.core.paginator import Paginator
+from learn_django.apps.course.models import CourseCategory
 from django.forms.models import model_to_dict
 from django.utils.decorators import method_decorator
 from django.views.decorators.csrf import csrf_exempt
+from django.shortcuts import render, get_object_or_404, get_list_or_404
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 # @drf
 from rest_framework.response import Response
-from rest_framework import status, viewsets, generics, filters
 from learn_django.apps.course.serializers import (
     CourseModelSerializer,
     CourseWithCategorySerializer,
     CourseModelNoValidationSerializer,
 )
+from rest_framework import status, viewsets, generics, filters
 from rest_framework.decorators import api_view, permission_classes, throttle_classes
 
 # @models
@@ -238,77 +239,86 @@ class CourseViewSet(viewsets.ViewSet):
       This shows how we can set up
     searching, ordering, filtering,
     nested filtering, ordering
-    and pagination manually
+    and pagination manually .
+    ## filtering using query params ## http://localhost:8000/drf/courses-viewset?categories=1
+    ## Nested filtering using query params ## http://localhost:8000/drf/courses-viewset?categories__id=1
+    ## searching  ## http://localhost:8000/drf/courses-viewset?search=c%206
+    ## ordering  ## http://localhost:8000/course/view-set?order=price,-id
+    ## pagination  ## http://localhost:8000/drf/courses-viewset?perPage=3&page=2
     """
 
     def list(self, request):
         queryset = Course.objects.all()
-        count = queryset.count()
-        
-        #
-        ## filtering using query params ## http://localhost:8000/drf/courses-viewset?categories=1
+
+        ## ordering
+        order_params = request.query_params.get("order")
+        if order_params:
+            order_fields = order_params.split(",")
+            queryset = queryset.order_by(*order_fields)
+
+        ## filtering using query params
         categories_param = request.query_params.get("categories")
         if categories_param:
             queryset = queryset.filter(categories=categories_param)
 
-        #
-        ## Nested filtering using query params ## http://localhost:8000/drf/courses-viewset?categories__id=1
+        ## Nested filtering using query params
         categories_id_param = request.query_params.get("categories__id")
         if categories_id_param:
             queryset = queryset.filter(
                 categories__id=categories_id_param
             )  # categories__id use the double underscore for nested case
 
-        #
-        ## searching  ## http://localhost:8000/drf/courses-viewset?search=c%206
+        ## searching
         search_param = request.query_params.get("search")
         if search_param:
             queryset = queryset.filter(title__icontains=search_param)
 
-        #
-        ## ordering  ## http://localhost:8000/course/view-set?order=price,-id
-        order_params = request.query_params.get("order")
-        if order_params:
-            order_fields = order_params.split(",")
-            queryset = queryset.order_by(*order_fields)
-
-        #
-        ## pagination  ## http://localhost:8000/drf/courses-viewset?perPage=3&page=2
-        per_page_params = request.query_params.get("perPage", default=6)
-        page_params = request.query_params.get("page", default=1)
+        ## pagination
+        per_page_params = request.query_params.get("perPage", default=3)
         paginator = Paginator(queryset, per_page=per_page_params)
+        page_params = request.query_params.get("page", default=1)
         try:
             queryset = paginator.page(number=page_params)
-        except:
+        except PageNotAnInteger:
+            queryset = paginator.page(1)
+        except EmptyPage:
             queryset = []
 
         # book_list = CourseModelSerializer(queryset,many=True)
         book_list = CourseWithCategorySerializer(queryset, many=True)
 
-        return Response({"count": count, "results": book_list.data})
+        return Response({"count": paginator.count, "results": book_list.data})
 
+    def retrieve(self, request, pk):
+        course_instance = get_object_or_404(Course, id=pk)
+        serialized_course = CourseWithCategorySerializer(course_instance)
+        return Response(serialized_course.data)
 
-#   def retrieve(self, request, pk):
-#     return Response({"message": "get single object - using ViewSet"})
+    def create(self, request):
+        print("\033[34m" + f'=>{"in create"}' + "\033[0m")
+        course = CourseModelNoValidationSerializer(data=request.data)
+        course.is_valid(raise_exception=True)
+        if course.is_valid():
+            print("\033[34m" + f"=>{course}" + "\033[0m")
+            course = course.save()
 
-#   def post(self, request):
-#     book = BookModelSerializer(data=request.data)
-#     book.is_valid(raise_exception=True)
-#     if book.is_valid():
-#       book.save()
-#       print("book---")
-#       print(book)
-#       print("book.data---")
-#       print(book.data)
-#       return Response(book.data, status=status.HTTP_201_CREATED)
-#     return Response(book.errors, status=status.HTTP_400_BAD_REQUEST)
+            # Check if category IDs were provided in the request
+            category_ids = request.data.get("categories", [])
+            print("\033[34m" + f"=>{category_ids}" + "\033[0m")
 
+            categories = CourseCategory.objects.filter(pk__in=category_ids)
+            course.categories.set(categories)
+            return Response(course.data, status=status.HTTP_201_CREATED)
+        return Response(course.errors, status=status.HTTP_400_BAD_REQUEST)
 
-#   def patch(self, request, pk):
-#     return Response({"message": "patch - using ViewSet"})
+    #   def patch(self, request, pk):
+    #     return Response({"message": "patch - using ViewSet"})
 
-#   def delete(self, request, pk):
-#     return Response({"message": "delete - using ViewSet"})
+    def delete(self, request, pk):
+        course_query_set = Course.objects.get(id=pk)
+        course_query_set.delete()
+        return Response({"message": "deletee"})
+
 
 # @api_view()
 # @permission_classes([IsAuthenticated])

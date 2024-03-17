@@ -25,10 +25,14 @@ urlpatterns = [
     ),
     path(
         f"{DRF_PREFIX}/filter-courses-with-q",
-        views.CourseModelViewSet.as_view({'get':'list'}),
+        views.CourseModelViewSet.as_view({"get": "list"}),
     ),
     path(
         f"{DRF_PREFIX}/courses-viewset",
-        views.CourseViewSet.as_view({'get':'list'}),
+        views.CourseViewSet.as_view({"get": "list", "post": "create"}),
+    ),
+    path(
+        f"{DRF_PREFIX}/courses-viewset/<int:pk>",
+        views.CourseViewSet.as_view({"get": "retrieve"}),
     ),
 ]
