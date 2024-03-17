@@ -16,7 +16,7 @@ from rest_framework import status, viewsets, generics, filters
 from learn_django.apps.course.serializers import (
     CourseModelSerializer,
     CourseWithCategorySerializer,
-    CourseModelNoValidationSerializer,
+    CourseModelNoValidationSerializer
 )
 from rest_framework.decorators import api_view, permission_classes, throttle_classes
 
@@ -291,17 +291,13 @@ class CourseViewSet(viewsets.ViewSet):
 #   def retrieve(self, request, pk):
 #     return Response({"message": "get single object - using ViewSet"})
 
-#   def post(self, request):
-#     book = BookModelSerializer(data=request.data)
-#     book.is_valid(raise_exception=True)
-#     if book.is_valid():
-#       book.save()
-#       print("book---")
-#       print(book)
-#       print("book.data---")
-#       print(book.data)
-#       return Response(book.data, status=status.HTTP_201_CREATED)
-#     return Response(book.errors, status=status.HTTP_400_BAD_REQUEST)
+    def create(self, request):
+      book = CourseWithCategorySerializer(data=request.data)
+      book.is_valid(raise_exception=True)
+      if book.is_valid():
+        book.save()
+        return Response(book.data, status=status.HTTP_201_CREATED)
+      return Response({}, status=status.HTTP_400_BAD_REQUEST)
 
 
 #   def patch(self, request, pk):

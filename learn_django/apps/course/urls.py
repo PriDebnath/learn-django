@@ -29,6 +29,6 @@ urlpatterns = [
     ),
     path(
         f"{DRF_PREFIX}/courses-viewset",
-        views.CourseViewSet.as_view({'get':'list'}),
+        views.CourseViewSet.as_view({'get':'list','post': 'create'}),
     ),
 ]
