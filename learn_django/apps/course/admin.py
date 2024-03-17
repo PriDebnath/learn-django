@@ -8,6 +8,5 @@ class CourseAdmin(admin.ModelAdmin):
     list_display = ["id", "title", "desc"]
 
 
-@admin.register(CourseCategory)
-class CourseCategoryAdmin(admin.ModelAdmin):
-    list_display = ["id", "title"]
+admin.site.register(CourseCategory)
+

@@ -284,10 +284,10 @@ class CourseViewSet(viewsets.ViewSet):
         except EmptyPage:
             queryset = []
 
-        # book_list = CourseModelSerializer(queryset,many=True)
-        book_list = CourseWithCategorySerializer(queryset, many=True)
+        # course_list = CourseModelSerializer(queryset,many=True)
+        course_list = CourseWithCategorySerializer(queryset, many=True)
 
-        return Response({"count": paginator.count, "results": book_list.data})
+        return Response({"count": paginator.count, "results": course_list.data})
 
     def retrieve(self, request, pk):
         course_instance = get_object_or_404(Course, id=pk)
@@ -295,19 +295,10 @@ class CourseViewSet(viewsets.ViewSet):
         return Response(serialized_course.data)
 
     def create(self, request):
-        print("\033[34m" + f'=>{"in create"}' + "\033[0m")
-        course = CourseModelNoValidationSerializer(data=request.data)
+        course = CourseWithCategorySerializer(data=request.data)
         course.is_valid(raise_exception=True)
         if course.is_valid():
-            print("\033[34m" + f"=>{course}" + "\033[0m")
-            course = course.save()
-
-            # Check if category IDs were provided in the request
-            category_ids = request.data.get("categories", [])
-            print("\033[34m" + f"=>{category_ids}" + "\033[0m")
-
-            categories = CourseCategory.objects.filter(pk__in=category_ids)
-            course.categories.set(categories)
+            course.save()
             return Response(course.data, status=status.HTTP_201_CREATED)
         return Response(course.errors, status=status.HTTP_400_BAD_REQUEST)
 
@@ -339,3 +330,5 @@ class CourseViewSet(viewsets.ViewSet):
 
 #
 # Django Rest Framework  end
+
+# mobile changes
