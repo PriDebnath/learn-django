@@ -18,8 +18,11 @@ from learn_django.apps.course.serializers import (
     CourseWithCategorySerializer,
     CourseModelNoValidationSerializer,
 )
+from rest_framework.throttling import AnonRateThrottle
+from rest_framework.permissions import IsAuthenticated
 from rest_framework import status, viewsets, generics, filters
 from rest_framework.decorators import api_view, permission_classes, throttle_classes
+
 
 # @models
 from learn_django.apps.course.models import Course
@@ -289,10 +292,12 @@ class CourseViewSet(viewsets.ViewSet):
 
         return Response({"count": paginator.count, "results": course_list.data})
 
+
     def retrieve(self, request, pk):
         course_instance = get_object_or_404(Course, id=pk)
         serialized_course = CourseWithCategorySerializer(course_instance)
         return Response(serialized_course.data)
+
 
     def create(self, request):
         course = CourseWithCategorySerializer(data=request.data)
@@ -319,10 +324,12 @@ class CourseViewSet(viewsets.ViewSet):
         return Response({"message": "deleted"})
 
 
-# @api_view()
-# @permission_classes([IsAuthenticated])
-# def secret (request):
-#   return Response({"message": 'here is secret'})
+@api_view()
+@permission_classes([IsAuthenticated])
+def authenticated_user_data (request):
+  user =  model_to_dict(request.user)
+  return Response({"message": 'Authenticated user data',"user": user})
+
 # @api_view()
 # #@permission_classes([IsAuthenticated])
 # def manager_view (request):
