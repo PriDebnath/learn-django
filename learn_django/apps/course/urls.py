@@ -33,6 +33,6 @@ urlpatterns = [
     ),
     path(
         f"{DRF_PREFIX}/courses-viewset/<int:pk>",
-        views.CourseViewSet.as_view({"get": "retrieve"}),
+        views.CourseViewSet.as_view({"get": "retrieve", "patch": "patch"}),
     ),
 ]

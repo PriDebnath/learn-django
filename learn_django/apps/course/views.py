@@ -302,13 +302,21 @@ class CourseViewSet(viewsets.ViewSet):
             return Response(course.data, status=status.HTTP_201_CREATED)
         return Response(course.errors, status=status.HTTP_400_BAD_REQUEST)
 
-    #   def patch(self, request, pk):
-    #     return Response({"message": "patch - using ViewSet"})
+
+    def patch(self, request, pk):
+        instance = Course.objects.get(pk=pk)
+        serializer = CourseWithCategorySerializer(instance, data=request.data, partial= True)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+       
+
 
     def delete(self, request, pk):
         course_query_set = Course.objects.get(id=pk)
         course_query_set.delete()
-        return Response({"message": "deletee"})
+        return Response({"message": "deleted"})
 
 
 # @api_view()
