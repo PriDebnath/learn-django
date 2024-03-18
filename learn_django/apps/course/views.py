@@ -343,12 +343,16 @@ def student_user_view (request):
      return Response({"message": 'Student data', "user": user})
    else:
      return Response({"message":"you are not Student","user": user})
+     
 
 
-# @api_view()
-# @throttle_classes([AnonRateThrottle])
-# def check_throttle (request):
-#   return Response({"message": 'here is secret'}) (edited)
+@api_view()
+@throttle_classes([AnonRateThrottle])
+def check_throttle (request):
+  return Response({
+    "message": 'Api responsed successfully',
+    "error": 'Anonymous user can request on the api 5 times per minutes'
+  }) 
 
 #
 # Django Rest Framework  end

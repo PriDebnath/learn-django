@@ -39,7 +39,5 @@ urlpatterns = [
     path(f"{DRF_PREFIX}/auth-user-view", views.authenticated_user_data),
     #path('get-token', obtain_auth_token),
     path(f"{DRF_PREFIX}/student-user-view", views.student_user_view),
-    #path('check-throttle', views.check_throttle),
-    
-    
+    path(f"{DRF_PREFIX}/check-throttle", views.check_throttle),
 ]
