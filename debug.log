@@ -15941,3 +15941,1857 @@ TypeError: Object of type User is not JSON serializable
 2024-03-18 16:04:10 [INFO    ] (basehttp.log_message) "GET /auth-user-data HTTP/1.1" 200 6132
 2024-03-18 16:04:10 [INFO    ] (basehttp.log_message) "GET /auth-user-data HTTP/1.1" 200 6132
 2024-03-18 16:04:10 [INFO    ] (basehttp.log_message) "GET /auth-user-data HTTP/1.1" 200 6132
+2024-03-18 16:05:33 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 16:05:33 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 16:05:33 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 16:05:56 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 16:05:56 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 16:05:56 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 16:05:57 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 16:05:57 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 16:05:57 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 16:06:10 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 16:06:10 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 16:06:10 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 16:06:10 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 16:06:10 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 16:06:10 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 16:06:16 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 16:06:16 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 16:06:16 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 16:06:16 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 16:06:16 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 16:06:16 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 16:06:18 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 16:06:18 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 16:06:18 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 16:06:18 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 16:06:18 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 16:06:18 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 16:06:59 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 16:06:59 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 16:06:59 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 16:06:59 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 16:06:59 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 16:06:59 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:39:43 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:39:43 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:39:43 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:39:45 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:39:45 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:39:45 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:10 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:10 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:10 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:11 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:11 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:11 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:12 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:12 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:12 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:13 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:13 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:13 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:15 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:15 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:15 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:16 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:16 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:16 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:18 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:18 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:18 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:19 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:19 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:19 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:21 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:21 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:21 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:22 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:22 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:22 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:24 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:24 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:24 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:24 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:24 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:24 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:26 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:26 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:26 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:26 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:26 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:26 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:30 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:30 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:30 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:40:31 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:31 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:40:31 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:06 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:06 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:06 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:07 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:07 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:07 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:08 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:08 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:08 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:09 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:09 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:09 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:11 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:11 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:11 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:12 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:12 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:12 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:14 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:14 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:14 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:14 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:14 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:14 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:18 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:18 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:18 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:18 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:18 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:18 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:36 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:36 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:36 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:37 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:37 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:37 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:41 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:41 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:41 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:41 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:41 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:41 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:46 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:46 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:46 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:47 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:47 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:47 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:48 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:48 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:48 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:49 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:49 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:49 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:59 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:59 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:59 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:41:59 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:59 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:41:59 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:42:05 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:42:05 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:42:05 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:42:05 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:42:05 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:42:05 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:42:17 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:42:17 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:42:17 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:42:18 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:42:18 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:42:18 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:42:23 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:42:23 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:42:23 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:42:24 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:42:24 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:42:24 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:42:27 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:42:27 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:42:27 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:42:27 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:42:27 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:42:27 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:43:26 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:43:26 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:43:26 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:43:27 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:43:27 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:43:27 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:43:30 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:43:30 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:43:30 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:43:31 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:43:31 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:43:31 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:44:03 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:44:03 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:44:03 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:44:04 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:44:04 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:44:04 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:44:07 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:44:07 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:44:07 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:44:08 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:44:08 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:44:08 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:44:17 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:44:17 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:44:17 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:44:18 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:44:18 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:44:18 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:44:26 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:44:26 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:44:26 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:44:26 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:44:26 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:44:26 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:44:35 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:44:35 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:44:35 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:44:36 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:44:36 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:44:36 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:44:58 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:44:58 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:44:58 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:44:58 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:44:58 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:44:58 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:45:33 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:45:33 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:45:33 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:45:34 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:45:34 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:45:34 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:45:39 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:45:39 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:45:39 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:45:40 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:45:40 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:45:40 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:45:43 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:45:43 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:45:43 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:45:44 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:45:44 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:45:44 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:45:46 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:45:46 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:45:46 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:45:47 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:45:47 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:45:47 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:45:56 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:45:56 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:45:56 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:45:56 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:45:56 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:45:56 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:45:58 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:45:58 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:45:58 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:45:58 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:45:58 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:45:58 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:46:02 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:46:02 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:46:02 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:46:02 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:46:02 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:46:02 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:46:05 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:46:05 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:46:05 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:46:05 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:46:05 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:46:05 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:46:12 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:46:12 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:46:12 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:46:13 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:46:13 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:46:13 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:46:32 [WARNING ] (log.log_response) Not Found: /favicon.ico
+2024-03-18 17:46:32 [WARNING ] (log.log_response) Not Found: /favicon.ico
+2024-03-18 17:46:32 [WARNING ] (log.log_response) Not Found: /favicon.ico
+2024-03-18 17:46:32 [WARNING ] (basehttp.log_message) "GET /favicon.ico HTTP/1.1" 404 4174
+2024-03-18 17:46:32 [WARNING ] (basehttp.log_message) "GET /favicon.ico HTTP/1.1" 404 4174
+2024-03-18 17:46:32 [WARNING ] (basehttp.log_message) "GET /favicon.ico HTTP/1.1" 404 4174
+2024-03-18 17:46:34 [WARNING ] (log.log_response) Not Found: /auth-user-data
+2024-03-18 17:46:34 [WARNING ] (log.log_response) Not Found: /auth-user-data
+2024-03-18 17:46:34 [WARNING ] (log.log_response) Not Found: /auth-user-data
+2024-03-18 17:46:34 [WARNING ] (basehttp.log_message) "GET /auth-user-data HTTP/1.1" 404 4183
+2024-03-18 17:46:34 [WARNING ] (basehttp.log_message) "GET /auth-user-data HTTP/1.1" 404 4183
+2024-03-18 17:46:34 [WARNING ] (basehttp.log_message) "GET /auth-user-data HTTP/1.1" 404 4183
+2024-03-18 17:47:04 [INFO    ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 200 6156
+2024-03-18 17:47:04 [INFO    ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 200 6156
+2024-03-18 17:47:04 [INFO    ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 200 6156
+2024-03-18 17:47:24 [INFO    ] (basehttp.log_message) "GET /drf/instructor-view HTTP/1.1" 200 6154
+2024-03-18 17:47:24 [INFO    ] (basehttp.log_message) "GET /drf/instructor-view HTTP/1.1" 200 6154
+2024-03-18 17:47:24 [INFO    ] (basehttp.log_message) "GET /drf/instructor-view HTTP/1.1" 200 6154
+2024-03-18 17:47:41 [INFO    ] (basehttp.log_message) "GET /admin/ HTTP/1.1" 200 10348
+2024-03-18 17:47:41 [INFO    ] (basehttp.log_message) "GET /admin/ HTTP/1.1" 200 10348
+2024-03-18 17:47:41 [INFO    ] (basehttp.log_message) "GET /admin/ HTTP/1.1" 200 10348
+2024-03-18 17:47:43 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/ HTTP/1.1" 200 13049
+2024-03-18 17:47:43 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/ HTTP/1.1" 200 13049
+2024-03-18 17:47:43 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/ HTTP/1.1" 200 13049
+2024-03-18 17:47:43 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 17:47:43 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 17:47:43 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 17:47:43 [INFO    ] (basehttp.log_message) "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2024-03-18 17:47:43 [INFO    ] (basehttp.log_message) "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2024-03-18 17:47:43 [INFO    ] (basehttp.log_message) "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2024-03-18 17:47:43 [INFO    ] (basehttp.log_message) "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+2024-03-18 17:47:43 [INFO    ] (basehttp.log_message) "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+2024-03-18 17:47:43 [INFO    ] (basehttp.log_message) "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+2024-03-18 17:47:43 [INFO    ] (basehttp.log_message) "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+2024-03-18 17:47:43 [INFO    ] (basehttp.log_message) "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+2024-03-18 17:47:43 [INFO    ] (basehttp.log_message) "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/ HTTP/1.1" 200 22735
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/ HTTP/1.1" 200 22735
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/ HTTP/1.1" 200 22735
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+2024-03-18 17:47:46 [INFO    ] (basehttp.log_message) "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+2024-03-18 17:49:02 [INFO    ] (basehttp.log_message) "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+2024-03-18 17:49:02 [INFO    ] (basehttp.log_message) "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+2024-03-18 17:49:02 [INFO    ] (basehttp.log_message) "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+2024-03-18 17:49:02 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/ HTTP/1.1" 200 13243
+2024-03-18 17:49:02 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/ HTTP/1.1" 200 13243
+2024-03-18 17:49:02 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/ HTTP/1.1" 200 13243
+2024-03-18 17:49:02 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 17:49:02 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 17:49:02 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 17:49:07 [ERROR   ] (log.log_response) Internal Server Error: /drf/instructor-view
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Permission is not JSON serializable
+2024-03-18 17:49:07 [ERROR   ] (log.log_response) Internal Server Error: /drf/instructor-view
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Permission is not JSON serializable
+2024-03-18 17:49:07 [ERROR   ] (log.log_response) Internal Server Error: /drf/instructor-view
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Permission is not JSON serializable
+2024-03-18 17:49:07 [ERROR   ] (basehttp.log_message) "GET /drf/instructor-view HTTP/1.1" 500 178215
+2024-03-18 17:49:07 [ERROR   ] (basehttp.log_message) "GET /drf/instructor-view HTTP/1.1" 500 178215
+2024-03-18 17:49:07 [ERROR   ] (basehttp.log_message) "GET /drf/instructor-view HTTP/1.1" 500 178215
+2024-03-18 17:49:13 [ERROR   ] (log.log_response) Internal Server Error: /drf/instructor-view
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Permission is not JSON serializable
+2024-03-18 17:49:13 [ERROR   ] (log.log_response) Internal Server Error: /drf/instructor-view
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Permission is not JSON serializable
+2024-03-18 17:49:13 [ERROR   ] (log.log_response) Internal Server Error: /drf/instructor-view
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Permission is not JSON serializable
+2024-03-18 17:49:13 [ERROR   ] (basehttp.log_message) "GET /drf/instructor-view HTTP/1.1" 500 178215
+2024-03-18 17:49:13 [ERROR   ] (basehttp.log_message) "GET /drf/instructor-view HTTP/1.1" 500 178215
+2024-03-18 17:49:13 [ERROR   ] (basehttp.log_message) "GET /drf/instructor-view HTTP/1.1" 500 178215
+2024-03-18 17:49:25 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:49:25 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:49:25 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:49:26 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:49:26 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:49:26 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:49:36 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:49:36 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:49:36 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:49:37 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:49:37 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:49:37 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:49:50 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:49:50 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:49:50 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:49:51 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:49:51 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:49:51 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:49:53 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:49:53 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:49:53 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:49:54 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:49:54 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:49:54 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:49:59 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:49:59 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:49:59 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:50:00 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:50:00 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:50:00 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:50:07 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:50:07 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:50:07 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:50:07 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:50:07 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:50:07 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:50:13 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:50:13 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:50:13 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:50:13 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:50:13 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:50:13 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:50:16 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:50:16 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:50:16 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:50:16 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:50:16 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:50:16 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:50:18 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:50:18 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:50:18 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 17:50:19 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:50:19 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:50:19 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:50:29 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:50:29 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:50:29 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:50:30 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:50:30 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:50:30 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:50:41 [WARNING ] (log.log_response) Not Found: /drf/instructor-view
+2024-03-18 17:50:41 [WARNING ] (log.log_response) Not Found: /drf/instructor-view
+2024-03-18 17:50:41 [WARNING ] (log.log_response) Not Found: /drf/instructor-view
+2024-03-18 17:50:41 [WARNING ] (basehttp.log_message) "GET /drf/instructor-view HTTP/1.1" 404 4200
+2024-03-18 17:50:41 [WARNING ] (basehttp.log_message) "GET /drf/instructor-view HTTP/1.1" 404 4200
+2024-03-18 17:50:41 [WARNING ] (basehttp.log_message) "GET /drf/instructor-view HTTP/1.1" 404 4200
+2024-03-18 17:51:22 [WARNING ] (log.log_response) Not Found: /drf/
+2024-03-18 17:51:22 [WARNING ] (log.log_response) Not Found: /drf/
+2024-03-18 17:51:22 [WARNING ] (log.log_response) Not Found: /drf/
+2024-03-18 17:51:22 [WARNING ] (basehttp.log_message) "GET /drf/ HTTP/1.1" 404 4155
+2024-03-18 17:51:22 [WARNING ] (basehttp.log_message) "GET /drf/ HTTP/1.1" 404 4155
+2024-03-18 17:51:22 [WARNING ] (basehttp.log_message) "GET /drf/ HTTP/1.1" 404 4155
+2024-03-18 17:51:53 [ERROR   ] (log.log_response) Internal Server Error: /drf/student-user-view
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Permission is not JSON serializable
+2024-03-18 17:51:53 [ERROR   ] (log.log_response) Internal Server Error: /drf/student-user-view
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Permission is not JSON serializable
+2024-03-18 17:51:53 [ERROR   ] (log.log_response) Internal Server Error: /drf/student-user-view
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Permission is not JSON serializable
+2024-03-18 17:51:53 [ERROR   ] (basehttp.log_message) "GET /drf/student-user-view HTTP/1.1" 500 178103
+2024-03-18 17:51:53 [ERROR   ] (basehttp.log_message) "GET /drf/student-user-view HTTP/1.1" 500 178103
+2024-03-18 17:51:53 [ERROR   ] (basehttp.log_message) "GET /drf/student-user-view HTTP/1.1" 500 178103
+2024-03-18 17:52:18 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:52:18 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:52:18 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:52:19 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:52:19 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:52:19 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:52:20 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:52:20 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:52:20 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 17:52:21 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:52:21 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:52:21 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 17:52:23 [INFO    ] (basehttp.log_message) "GET /drf/student-user-view HTTP/1.1" 200 5433
+2024-03-18 17:52:23 [INFO    ] (basehttp.log_message) "GET /drf/student-user-view HTTP/1.1" 200 5433
+2024-03-18 17:52:23 [INFO    ] (basehttp.log_message) "GET /drf/student-user-view HTTP/1.1" 200 5433
+2024-03-18 17:52:43 [WARNING ] (log.log_response) Not Found: /drf/auth-user-view
+2024-03-18 17:52:43 [WARNING ] (log.log_response) Not Found: /drf/auth-user-view
+2024-03-18 17:52:43 [WARNING ] (log.log_response) Not Found: /drf/auth-user-view
+2024-03-18 17:52:43 [WARNING ] (basehttp.log_message) "GET /drf/auth-user-view HTTP/1.1" 404 4197
+2024-03-18 17:52:43 [WARNING ] (basehttp.log_message) "GET /drf/auth-user-view HTTP/1.1" 404 4197
+2024-03-18 17:52:43 [WARNING ] (basehttp.log_message) "GET /drf/auth-user-view HTTP/1.1" 404 4197
+2024-03-18 17:52:52 [WARNING ] (log.log_response) Not Found: /drf/auth-user-view
+2024-03-18 17:52:52 [WARNING ] (log.log_response) Not Found: /drf/auth-user-view
+2024-03-18 17:52:52 [WARNING ] (log.log_response) Not Found: /drf/auth-user-view
+2024-03-18 17:52:52 [WARNING ] (basehttp.log_message) "GET /drf/auth-user-view HTTP/1.1" 404 4197
+2024-03-18 17:52:52 [WARNING ] (basehttp.log_message) "GET /drf/auth-user-view HTTP/1.1" 404 4197
+2024-03-18 17:52:52 [WARNING ] (basehttp.log_message) "GET /drf/auth-user-view HTTP/1.1" 404 4197
+2024-03-18 17:53:03 [ERROR   ] (log.log_response) Internal Server Error: /drf/auth-user-data
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Permission is not JSON serializable
+2024-03-18 17:53:03 [ERROR   ] (log.log_response) Internal Server Error: /drf/auth-user-data
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Permission is not JSON serializable
+2024-03-18 17:53:03 [ERROR   ] (log.log_response) Internal Server Error: /drf/auth-user-data
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Permission is not JSON serializable
+2024-03-18 17:53:03 [ERROR   ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 500 178079
+2024-03-18 17:53:03 [ERROR   ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 500 178079
+2024-03-18 17:53:03 [ERROR   ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 500 178079
+2024-03-18 18:04:24 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 18:04:24 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 18:04:24 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 18:04:25 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 18:04:25 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 18:04:25 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 18:04:26 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 18:04:26 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 18:04:26 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 18:04:27 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 18:04:27 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 18:04:27 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 18:04:38 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 18:04:38 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 18:04:38 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 18:04:39 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 18:04:39 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 18:04:39 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 18:04:45 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 18:04:45 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 18:04:45 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 18:04:46 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 18:04:46 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 18:04:46 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 18:04:51 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 18:04:51 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 18:04:51 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 18:04:52 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 18:04:52 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 18:04:52 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 19:25:39 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 19:25:39 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 19:25:39 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 19:25:40 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 19:25:40 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 19:25:40 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 19:25:44 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 19:25:44 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 19:25:44 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 19:25:44 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 19:25:44 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 19:25:44 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:05:30 [INFO    ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 200 6100
+2024-03-18 20:05:30 [INFO    ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 200 6100
+2024-03-18 20:05:30 [INFO    ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 200 6100
+2024-03-18 20:06:24 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:06:24 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:06:24 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:06:26 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:06:26 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:06:26 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:06:34 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:06:34 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:06:34 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:06:34 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:06:34 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:06:34 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:06:36 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:06:36 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:06:36 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:06:37 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:06:37 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:06:37 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:06:38 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:06:38 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:06:38 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:06:39 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:06:39 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:06:39 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:06:48 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:06:48 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:06:48 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:06:48 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:06:48 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:06:48 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:06:55 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:06:55 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:06:55 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:06:56 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:06:56 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:06:56 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:06:58 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:06:58 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:06:58 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:06:59 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:06:59 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:06:59 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:00 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:00 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:00 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:01 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:01 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:01 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:03 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:03 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:03 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:04 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:04 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:04 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:06 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:06 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:06 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:06 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:06 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:06 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:10 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:10 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:10 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:11 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:11 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:11 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:15 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:15 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:15 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:16 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:16 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:16 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:19 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:19 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:19 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:19 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:19 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:19 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:23 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:23 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:23 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:24 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:24 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:24 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:26 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:26 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:26 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:27 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:27 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:27 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:30 [ERROR   ] (log.log_response) Internal Server Error: /drf/auth-user-data
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py", line 333, in authenticated_user_data
+    user_permission_value = request.user["user_permissions"]
+                            ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/utils/functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'User' object is not subscriptable
+2024-03-18 20:07:30 [ERROR   ] (log.log_response) Internal Server Error: /drf/auth-user-data
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py", line 333, in authenticated_user_data
+    user_permission_value = request.user["user_permissions"]
+                            ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/utils/functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'User' object is not subscriptable
+2024-03-18 20:07:30 [ERROR   ] (log.log_response) Internal Server Error: /drf/auth-user-data
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py", line 333, in authenticated_user_data
+    user_permission_value = request.user["user_permissions"]
+                            ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/utils/functional.py", line 253, in inner
+    return func(_wrapped, *args)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'User' object is not subscriptable
+2024-03-18 20:07:30 [ERROR   ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 500 102585
+2024-03-18 20:07:30 [ERROR   ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 500 102585
+2024-03-18 20:07:30 [ERROR   ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 500 102585
+2024-03-18 20:07:50 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:50 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:50 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:51 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:51 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:51 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:53 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:53 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:53 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:07:54 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:54 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:54 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:07:54 [INFO    ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 200 6100
+2024-03-18 20:07:54 [INFO    ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 200 6100
+2024-03-18 20:07:54 [INFO    ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 200 6100
+2024-03-18 20:08:32 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13530
+2024-03-18 20:08:32 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13530
+2024-03-18 20:08:32 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13530
+2024-03-18 20:08:32 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:08:32 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:08:32 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:08:32 [INFO    ] (basehttp.log_message) "GET /static/admin/img/icon-hidelink.svg HTTP/1.1" 200 784
+2024-03-18 20:08:32 [INFO    ] (basehttp.log_message) "GET /static/admin/img/icon-hidelink.svg HTTP/1.1" 200 784
+2024-03-18 20:08:32 [INFO    ] (basehttp.log_message) "GET /static/admin/img/icon-hidelink.svg HTTP/1.1" 200 784
+2024-03-18 20:08:35 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/1/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 22838
+2024-03-18 20:08:35 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/1/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 22838
+2024-03-18 20:08:35 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/1/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 22838
+2024-03-18 20:08:35 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:08:35 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:08:35 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:09:04 [INFO    ] (basehttp.log_message) "POST /admin/auth/user/1/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 302 0
+2024-03-18 20:09:04 [INFO    ] (basehttp.log_message) "POST /admin/auth/user/1/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 302 0
+2024-03-18 20:09:04 [INFO    ] (basehttp.log_message) "POST /admin/auth/user/1/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 302 0
+2024-03-18 20:09:04 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13721
+2024-03-18 20:09:04 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13721
+2024-03-18 20:09:04 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13721
+2024-03-18 20:09:04 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:09:04 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:09:04 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:09:07 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/1/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 22847
+2024-03-18 20:09:07 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/1/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 22847
+2024-03-18 20:09:07 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/1/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 22847
+2024-03-18 20:09:07 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:09:07 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:09:07 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:09:15 [INFO    ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 200 6100
+2024-03-18 20:09:15 [INFO    ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 200 6100
+2024-03-18 20:09:15 [INFO    ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 200 6100
+2024-03-18 20:09:23 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13530
+2024-03-18 20:09:23 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13530
+2024-03-18 20:09:23 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13530
+2024-03-18 20:09:24 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 22859
+2024-03-18 20:09:24 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 22859
+2024-03-18 20:09:24 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 22859
+2024-03-18 20:09:24 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:09:24 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:09:24 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:09:25 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13530
+2024-03-18 20:09:25 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13530
+2024-03-18 20:09:25 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13530
+2024-03-18 20:09:26 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/2/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 22858
+2024-03-18 20:09:26 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/2/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 22858
+2024-03-18 20:09:26 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/2/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 22858
+2024-03-18 20:09:26 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:09:26 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:09:26 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:09:27 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13530
+2024-03-18 20:09:27 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13530
+2024-03-18 20:09:27 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13530
+2024-03-18 20:09:28 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 22859
+2024-03-18 20:09:28 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 22859
+2024-03-18 20:09:28 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 22859
+2024-03-18 20:09:28 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:09:28 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:09:28 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:10:04 [INFO    ] (basehttp.log_message) "POST /admin/auth/user/3/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 302 0
+2024-03-18 20:10:04 [INFO    ] (basehttp.log_message) "POST /admin/auth/user/3/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 302 0
+2024-03-18 20:10:04 [INFO    ] (basehttp.log_message) "POST /admin/auth/user/3/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 302 0
+2024-03-18 20:10:04 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13724
+2024-03-18 20:10:04 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13724
+2024-03-18 20:10:04 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13724
+2024-03-18 20:10:04 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:10:04 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:10:04 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:10:06 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 23174
+2024-03-18 20:10:06 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 23174
+2024-03-18 20:10:06 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 23174
+2024-03-18 20:10:06 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:10:06 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:10:06 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:10:14 [INFO    ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 200 6100
+2024-03-18 20:10:14 [INFO    ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 200 6100
+2024-03-18 20:10:14 [INFO    ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 200 6100
+2024-03-18 20:17:37 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 23174
+2024-03-18 20:17:37 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 23174
+2024-03-18 20:17:37 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 23174
+2024-03-18 20:17:38 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:17:38 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:17:38 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:29:39 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 23174
+2024-03-18 20:29:39 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 23174
+2024-03-18 20:29:39 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 23174
+2024-03-18 20:29:39 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:29:39 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:29:39 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:29:40 [WARNING ] (log.log_response) Not Found: /favicon.ico
+2024-03-18 20:29:40 [WARNING ] (log.log_response) Not Found: /favicon.ico
+2024-03-18 20:29:40 [WARNING ] (log.log_response) Not Found: /favicon.ico
+2024-03-18 20:29:40 [WARNING ] (basehttp.log_message) "GET /favicon.ico HTTP/1.1" 404 4176
+2024-03-18 20:29:40 [WARNING ] (basehttp.log_message) "GET /favicon.ico HTTP/1.1" 404 4176
+2024-03-18 20:29:40 [WARNING ] (basehttp.log_message) "GET /favicon.ico HTTP/1.1" 404 4176
+2024-03-18 20:30:36 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:30:36 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:30:36 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:30:38 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:30:38 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:30:38 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:30:40 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13530
+2024-03-18 20:30:40 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13530
+2024-03-18 20:30:40 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13530
+2024-03-18 20:30:40 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:30:40 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:30:40 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:30:41 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 23174
+2024-03-18 20:30:41 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 23174
+2024-03-18 20:30:41 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 23174
+2024-03-18 20:30:41 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:30:41 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:30:41 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:30:42 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13530
+2024-03-18 20:30:42 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13530
+2024-03-18 20:30:42 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13530
+2024-03-18 20:30:43 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:30:43 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:30:43 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:30:44 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/1/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 22847
+2024-03-18 20:30:44 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/1/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 22847
+2024-03-18 20:30:44 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/1/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 22847
+2024-03-18 20:30:44 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:30:44 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:30:44 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:30:45 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13530
+2024-03-18 20:30:45 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13530
+2024-03-18 20:30:45 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 13530
+2024-03-18 20:30:45 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:30:45 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:30:45 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:30:50 [INFO    ] (basehttp.log_message) "GET /admin/ HTTP/1.1" 200 10471
+2024-03-18 20:30:50 [INFO    ] (basehttp.log_message) "GET /admin/ HTTP/1.1" 200 10471
+2024-03-18 20:30:50 [INFO    ] (basehttp.log_message) "GET /admin/ HTTP/1.1" 200 10471
+2024-03-18 20:30:51 [INFO    ] (basehttp.log_message) "GET /admin/auth/group/ HTTP/1.1" 200 8612
+2024-03-18 20:30:51 [INFO    ] (basehttp.log_message) "GET /admin/auth/group/ HTTP/1.1" 200 8612
+2024-03-18 20:30:51 [INFO    ] (basehttp.log_message) "GET /admin/auth/group/ HTTP/1.1" 200 8612
+2024-03-18 20:30:51 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:30:51 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:30:51 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:30:55 [INFO    ] (basehttp.log_message) "GET /admin/auth/group/add/ HTTP/1.1" 200 13119
+2024-03-18 20:30:55 [INFO    ] (basehttp.log_message) "GET /admin/auth/group/add/ HTTP/1.1" 200 13119
+2024-03-18 20:30:55 [INFO    ] (basehttp.log_message) "GET /admin/auth/group/add/ HTTP/1.1" 200 13119
+2024-03-18 20:30:55 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:30:55 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:30:55 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:31:16 [INFO    ] (basehttp.log_message) "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+2024-03-18 20:31:16 [INFO    ] (basehttp.log_message) "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+2024-03-18 20:31:16 [INFO    ] (basehttp.log_message) "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+2024-03-18 20:31:16 [INFO    ] (basehttp.log_message) "GET /admin/auth/group/ HTTP/1.1" 200 10082
+2024-03-18 20:31:16 [INFO    ] (basehttp.log_message) "GET /admin/auth/group/ HTTP/1.1" 200 10082
+2024-03-18 20:31:16 [INFO    ] (basehttp.log_message) "GET /admin/auth/group/ HTTP/1.1" 200 10082
+2024-03-18 20:31:16 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:31:16 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:31:16 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:31:19 [INFO    ] (basehttp.log_message) "GET /admin/auth/group/add/ HTTP/1.1" 200 13119
+2024-03-18 20:31:19 [INFO    ] (basehttp.log_message) "GET /admin/auth/group/add/ HTTP/1.1" 200 13119
+2024-03-18 20:31:19 [INFO    ] (basehttp.log_message) "GET /admin/auth/group/add/ HTTP/1.1" 200 13119
+2024-03-18 20:31:20 [INFO    ] (basehttp.log_message) "GET /admin/auth/group/ HTTP/1.1" 200 9881
+2024-03-18 20:31:20 [INFO    ] (basehttp.log_message) "GET /admin/auth/group/ HTTP/1.1" 200 9881
+2024-03-18 20:31:20 [INFO    ] (basehttp.log_message) "GET /admin/auth/group/ HTTP/1.1" 200 9881
+2024-03-18 20:31:22 [INFO    ] (basehttp.log_message) "GET /admin/ HTTP/1.1" 200 10517
+2024-03-18 20:31:22 [INFO    ] (basehttp.log_message) "GET /admin/ HTTP/1.1" 200 10517
+2024-03-18 20:31:22 [INFO    ] (basehttp.log_message) "GET /admin/ HTTP/1.1" 200 10517
+2024-03-18 20:31:26 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/ HTTP/1.1" 200 13348
+2024-03-18 20:31:26 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/ HTTP/1.1" 200 13348
+2024-03-18 20:31:26 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/ HTTP/1.1" 200 13348
+2024-03-18 20:31:26 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:31:26 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:31:26 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:31:28 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/1/change/ HTTP/1.1" 200 22776
+2024-03-18 20:31:28 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/1/change/ HTTP/1.1" 200 22776
+2024-03-18 20:31:28 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/1/change/ HTTP/1.1" 200 22776
+2024-03-18 20:31:28 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:31:28 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:31:28 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:31:30 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/ HTTP/1.1" 200 13348
+2024-03-18 20:31:30 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/ HTTP/1.1" 200 13348
+2024-03-18 20:31:30 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/ HTTP/1.1" 200 13348
+2024-03-18 20:31:31 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/ HTTP/1.1" 200 23103
+2024-03-18 20:31:31 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/ HTTP/1.1" 200 23103
+2024-03-18 20:31:31 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/3/change/ HTTP/1.1" 200 23103
+2024-03-18 20:31:32 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:31:32 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:31:32 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:31:41 [INFO    ] (basehttp.log_message) "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+2024-03-18 20:31:41 [INFO    ] (basehttp.log_message) "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+2024-03-18 20:31:41 [INFO    ] (basehttp.log_message) "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+2024-03-18 20:31:41 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/ HTTP/1.1" 200 13542
+2024-03-18 20:31:41 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/ HTTP/1.1" 200 13542
+2024-03-18 20:31:41 [INFO    ] (basehttp.log_message) "GET /admin/auth/user/ HTTP/1.1" 200 13542
+2024-03-18 20:31:41 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:31:41 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:31:41 [INFO    ] (basehttp.log_message) "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-03-18 20:31:53 [ERROR   ] (log.log_response) Internal Server Error: /drf/auth-user-data
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Group is not JSON serializable
+2024-03-18 20:31:53 [ERROR   ] (log.log_response) Internal Server Error: /drf/auth-user-data
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Group is not JSON serializable
+2024-03-18 20:31:53 [ERROR   ] (log.log_response) Internal Server Error: /drf/auth-user-data
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 723, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 679, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 412, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/.local/share/virtualenvs/learn-django-xLaJcPoz/lib/python3.11/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Group is not JSON serializable
+2024-03-18 20:31:53 [ERROR   ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 500 176051
+2024-03-18 20:31:53 [ERROR   ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 500 176051
+2024-03-18 20:31:53 [ERROR   ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 500 176051
+2024-03-18 20:33:15 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:33:15 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:33:15 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:33:16 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:33:16 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:33:16 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:33:21 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:33:21 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:33:21 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:33:22 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:33:22 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:33:22 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:33:27 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:33:27 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:33:27 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:33:27 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:33:27 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:33:27 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:33:29 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:33:29 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:33:29 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:33:29 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:33:29 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:33:29 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:33:31 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:33:31 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:33:31 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:33:32 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:33:32 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:33:32 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:33:55 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:33:55 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:33:55 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:33:56 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:33:56 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:33:56 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:33:58 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:33:58 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:33:58 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:33:59 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:33:59 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:33:59 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:00 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:00 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:00 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:01 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:01 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:01 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:02 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:02 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:02 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:03 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:03 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:03 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:04 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:04 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:04 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:05 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:05 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:05 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:06 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:06 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:06 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:07 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:07 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:07 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:11 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:11 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:11 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:12 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:12 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:12 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:16 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:16 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:16 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:16 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:16 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:16 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:25 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:25 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:25 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:26 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:26 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:26 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:33 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:33 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:33 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:33 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:33 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:33 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:39 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:39 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:39 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:39 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:39 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:39 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:41 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:41 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:41 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:34:42 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:42 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:42 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:34:53 [INFO    ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 200 6068
+2024-03-18 20:34:53 [INFO    ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 200 6068
+2024-03-18 20:34:53 [INFO    ] (basehttp.log_message) "GET /drf/auth-user-data HTTP/1.1" 200 6068
+2024-03-18 20:35:12 [WARNING ] (log.log_response) Not Found: /drf/auth-student-data
+2024-03-18 20:35:12 [WARNING ] (log.log_response) Not Found: /drf/auth-student-data
+2024-03-18 20:35:12 [WARNING ] (log.log_response) Not Found: /drf/auth-student-data
+2024-03-18 20:35:12 [WARNING ] (basehttp.log_message) "GET /drf/auth-student-data HTTP/1.1" 404 4206
+2024-03-18 20:35:12 [WARNING ] (basehttp.log_message) "GET /drf/auth-student-data HTTP/1.1" 404 4206
+2024-03-18 20:35:12 [WARNING ] (basehttp.log_message) "GET /drf/auth-student-data HTTP/1.1" 404 4206
+2024-03-18 20:35:34 [WARNING ] (log.log_response) Not Found: /drf/auth-student-view
+2024-03-18 20:35:34 [WARNING ] (log.log_response) Not Found: /drf/auth-student-view
+2024-03-18 20:35:34 [WARNING ] (log.log_response) Not Found: /drf/auth-student-view
+2024-03-18 20:35:34 [WARNING ] (basehttp.log_message) "GET /drf/auth-student-view HTTP/1.1" 404 4206
+2024-03-18 20:35:34 [WARNING ] (basehttp.log_message) "GET /drf/auth-student-view HTTP/1.1" 404 4206
+2024-03-18 20:35:34 [WARNING ] (basehttp.log_message) "GET /drf/auth-student-view HTTP/1.1" 404 4206
+2024-03-18 20:35:54 [INFO    ] (basehttp.log_message) "GET /drf/student-user-view HTTP/1.1" 200 6036
+2024-03-18 20:35:54 [INFO    ] (basehttp.log_message) "GET /drf/student-user-view HTTP/1.1" 200 6036
+2024-03-18 20:35:54 [INFO    ] (basehttp.log_message) "GET /drf/student-user-view HTTP/1.1" 200 6036
+2024-03-18 20:36:11 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 20:36:11 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 20:36:11 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/urls.py changed, reloading.
+2024-03-18 20:36:12 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:36:12 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:36:12 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:36:24 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:36:24 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:36:24 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:36:25 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:36:25 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:36:25 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:36:30 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:36:30 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:36:30 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:36:30 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:36:30 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:36:30 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:36:50 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:36:50 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:36:50 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:36:51 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:36:51 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:36:51 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:37:01 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:37:01 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:37:01 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:37:02 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:37:02 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:37:02 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:37:13 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:37:13 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:37:13 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:37:13 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:37:13 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:37:13 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:37:24 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:37:24 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:37:24 [INFO    ] (autoreload.trigger_reload) /data/data/com.termux/files/home/django_projects/learn-django/learn_django/apps/course/views.py changed, reloading.
+2024-03-18 20:37:25 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:37:25 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2024-03-18 20:37:25 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader

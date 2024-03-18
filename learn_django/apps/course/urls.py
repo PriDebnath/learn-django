@@ -36,9 +36,9 @@ urlpatterns = [
         views.CourseViewSet.as_view({"get": "retrieve", "patch": "patch"}),
     ),
     # authentication authorization
-    path('auth-user-data', views.authenticated_user_data, name='course-list'),
+    path(f"{DRF_PREFIX}/auth-user-view", views.authenticated_user_data),
     #path('get-token', obtain_auth_token),
-    #path('manager-view', views.manager_view),
+    path(f"{DRF_PREFIX}/student-user-view", views.student_user_view),
     #path('check-throttle', views.check_throttle),
     
     

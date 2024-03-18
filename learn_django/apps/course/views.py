@@ -327,17 +327,24 @@ class CourseViewSet(viewsets.ViewSet):
 @api_view()
 @permission_classes([IsAuthenticated])
 def authenticated_user_data (request):
-  user =  model_to_dict(request.user)
+  fields_to_exclude = ['groups','user_permissions']
+  user_permission_value = request.user.user_permissions
+  user = model_to_dict(request.user, exclude=fields_to_exclude)
   return Response({"message": 'Authenticated user data',"user": user})
 
-# @api_view()
-# #@permission_classes([IsAuthenticated])
-# def manager_view (request):
-#   print (request.user)
-#   if request.user.groups.filter(name="Manager"). exists():
-#     return Response({"message": 'here is secret'})
-#   else:
-#     return Response({"message":"you are not Manager"})
+
+
+@api_view()
+@permission_classes([IsAuthenticated])
+def student_user_view (request):
+   fields_to_exclude = ['groups','user_permissions']
+   user =  model_to_dict(request.user, exclude= fields_to_exclude)
+   if request.user.groups.filter(name="Student Group").exists():
+     return Response({"message": 'Student data', "user": user})
+   else:
+     return Response({"message":"you are not Student","user": user})
+
+
 # @api_view()
 # @throttle_classes([AnonRateThrottle])
 # def check_throttle (request):
