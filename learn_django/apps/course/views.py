@@ -18,8 +18,11 @@ from learn_django.apps.course.serializers import (
     CourseWithCategorySerializer,
     CourseModelNoValidationSerializer,
 )
+from rest_framework.throttling import AnonRateThrottle
+from rest_framework.permissions import IsAuthenticated
 from rest_framework import status, viewsets, generics, filters
 from rest_framework.decorators import api_view, permission_classes, throttle_classes
+
 
 # @models
 from learn_django.apps.course.models import Course
@@ -289,10 +292,12 @@ class CourseViewSet(viewsets.ViewSet):
 
         return Response({"count": paginator.count, "results": course_list.data})
 
+
     def retrieve(self, request, pk):
         course_instance = get_object_or_404(Course, id=pk)
         serialized_course = CourseWithCategorySerializer(course_instance)
         return Response(serialized_course.data)
+
 
     def create(self, request):
         course = CourseWithCategorySerializer(data=request.data)
@@ -302,31 +307,52 @@ class CourseViewSet(viewsets.ViewSet):
             return Response(course.data, status=status.HTTP_201_CREATED)
         return Response(course.errors, status=status.HTTP_400_BAD_REQUEST)
 
-    #   def patch(self, request, pk):
-    #     return Response({"message": "patch - using ViewSet"})
+
+    def patch(self, request, pk):
+        instance = Course.objects.get(pk=pk)
+        serializer = CourseWithCategorySerializer(instance, data=request.data, partial= True)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+       
+
 
     def delete(self, request, pk):
         course_query_set = Course.objects.get(id=pk)
         course_query_set.delete()
-        return Response({"message": "deletee"})
+        return Response({"message": "deleted"})
 
 
-# @api_view()
-# @permission_classes([IsAuthenticated])
-# def secret (request):
-#   return Response({"message": 'here is secret'})
-# @api_view()
-# #@permission_classes([IsAuthenticated])
-# def manager_view (request):
-#   print (request.user)
-#   if request.user.groups.filter(name="Manager"). exists():
-#     return Response({"message": 'here is secret'})
-#   else:
-#     return Response({"message":"you are not Manager"})
-# @api_view()
-# @throttle_classes([AnonRateThrottle])
-# def check_throttle (request):
-#   return Response({"message": 'here is secret'}) (edited)
+@api_view()
+@permission_classes([IsAuthenticated])
+def authenticated_user_data (request):
+  fields_to_exclude = ['groups','user_permissions']
+  user_permission_value = request.user.user_permissions
+  user = model_to_dict(request.user, exclude=fields_to_exclude)
+  return Response({"message": 'Authenticated user data',"user": user})
+
+
+
+@api_view()
+@permission_classes([IsAuthenticated])
+def student_user_view (request):
+   fields_to_exclude = ['groups','user_permissions']
+   user =  model_to_dict(request.user, exclude= fields_to_exclude)
+   if request.user.groups.filter(name="Student Group").exists():
+     return Response({"message": 'Student data', "user": user})
+   else:
+     return Response({"message":"you are not Student","user": user})
+     
+
+
+@api_view()
+@throttle_classes([AnonRateThrottle])
+def check_throttle (request):
+  return Response({
+    "message": 'Api responsed successfully',
+    "error": 'Anonymous user can request on the api 5 times per minutes'
+  }) 
 
 #
 # Django Rest Framework  end

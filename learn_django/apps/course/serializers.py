@@ -104,3 +104,23 @@ class CourseWithCategorySerializer(serializers.ModelSerializer):
             category_instance = CourseCategory.objects.get(pk=category["id"])
             course.categories.add(category_instance)
         return course
+        
+    def update(self, instance, validated_data):
+        categories_data = validated_data.pop("categories", [])
+      
+        #instance = super().update(instance,validated_data) # one liner update
+        # Update instance with validated data
+        for key, value in validated_data.items():
+          setattr(instance, key, value)
+        
+        # Clear existing categories
+        instance.categories.clear()
+        
+        # Associate categories with the course
+        for category_data in categories_data:
+            category_instance, created = CourseCategory.objects.get_or_create(**category_data)
+            instance.categories.add(category_instance)
+
+        instance.refresh_from_db()
+        instance.save
+        return instance
