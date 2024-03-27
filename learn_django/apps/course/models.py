@@ -17,6 +17,8 @@ class CourseCategory(models.Model):
     course = models.ForeignKey(
         Course, on_delete=models.SET_NULL, null=True, related_name="categories"
     )
+    class Meta:
+       verbose_name_plural = "Course Categories" # This will show up in django admin
 
     def __str__(self):
        course_title = self.course.title if self.course else 'Unknown'

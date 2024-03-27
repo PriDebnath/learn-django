@@ -23,19 +23,18 @@ class Student(models.Model):
         on_delete=models.CASCADE,
         related_name="students",
         verbose_name=_("User"),
-        null= True
     )
     ## Method to property
     @property
     def name(self):
-        return f"{self.user.first_name} {self.user.last_name}"
- 
-    
+        full_name = f"{self.user.first_name} {self.user.last_name}".strip()
+        return full_name or "Unknown user"
+        
+      
     # Overriding save method to implement custom logic 
     def save(self, *args, **kwargs):
-        if not self.name:  # Only update name if it's not already set
-            self.name = f"{self.user.first_name} {self.user.last_name}"
-        super().save(*args, **kwargs)
+      super().save(*args, **kwargs)
+   
    
     def __str__(self):
-        return f"{self.name} - {self.current_year or 'unknown'}"# Returned value will represent the model
+        return f"{self.name} - {self.current_year or 'unknown year'}"# Returned value will represent the model
