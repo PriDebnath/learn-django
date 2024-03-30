@@ -22,4 +22,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("learn_django.apps.course.urls")),
     path("students/", include("learn_django.apps.student.urls")),
+    path("student-course/", include("learn_django.apps.student_course.urls")),
 ]

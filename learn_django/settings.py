@@ -47,6 +47,8 @@ PROJECT_APPS = [
     "learn_django.apps.course",
     "learn_django.apps.student",
     "learn_django.apps.accounts",
+    "learn_django.apps.student_course",
+   
 ]
 
 INSTALLED_APPS = INSTALLED_APPS + INSTALLED_PACKAGES + PROJECT_APPS
