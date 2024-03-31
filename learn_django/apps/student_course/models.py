@@ -13,7 +13,7 @@ class StudentCourse(models.Model):
   )
   
   def save(self, *args, **kwargs):
-        # Check if a similar student-course combination already exists
+        # Check if a similar student-course combination already exists # we can set the validation at serializer level as well in validate method
         existing_relationship = StudentCourse.objects.filter(student=self.student, course=self.course).first()
         if existing_relationship:
             # If a similar relationship already exists, raise validation error

@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
 INSTALLED_PACKAGES = [
     "rest_framework",
+    "django_filters",
 ]
 
 PROJECT_APPS = [
