@@ -9,7 +9,6 @@ from learn_django.apps.student_course.models import StudentCourse
 class StudentCourseListSerializer(serializers.ModelSerializer):
     "show course list a student"
     course =  CourseModelSerializer()
-   
     class Meta:
         model = StudentCourse
         fields = "__all__"
@@ -24,23 +23,7 @@ class CourseStudentListSerializer(serializers.ModelSerializer):
         model = StudentCourse
         fields = "__all__"
         
-        
-'''        
-  #  def get_course_detail(self, obj):
-   #   course_detail = CourseModelSerializer(obj.course)
-      return course_detail.data
-
-    def validate(self, data):
-        student = data.get('student')
-        course = data.get('course')
-
-        # Check if the course is already assigned to this student # we can set the validation at model level as well before saving an instance
-        if StudentCourse.objects.filter(student=student, course=course).exists():
-            raise serializers.ValidationError("This course is already assigned to the student")
-
-        return data
-'''
-
+    
 class StudentCourseCreateSerializer(serializers.ModelSerializer):
     "create student course"
     class Meta:
@@ -87,5 +70,4 @@ class StudentCourseSerializer(serializers.ModelSerializer):
         # Check if the course is already assigned to this student # we can set the validation at model level as well before saving an instance
         if StudentCourse.objects.filter(student=student, course=course).exists():
             raise serializers.ValidationError("This course is already assigned to the student")
-
         return data
