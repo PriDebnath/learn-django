@@ -2,12 +2,13 @@ from rest_framework import serializers
 from learn_django.apps.student.models import Student
 from learn_django.apps.accounts.serializers import UserSerializer
 from django.contrib.auth.models import User 
+from django.contrib.auth import get_user_model 
 
 
 class StudentSerializer(serializers.ModelSerializer):
   student_name = serializers.SerializerMethodField(method_name="get_student_name")
   user_detail = serializers.SerializerMethodField() # "get_" + field_name become its method_name
-  user = serializers.PrimaryKeyRelatedField(queryset=User.objects.all())
+  user = serializers.PrimaryKeyRelatedField(queryset=get_user_model().objects.all())
 
   class Meta:
     model = Student
