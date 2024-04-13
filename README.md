@@ -24,6 +24,12 @@ pipenv shell
 pip install -r requirements.txt
 ```
 
+#### Make sure django installed successfully by checking its version
+```
+python -m django --version
+```
+
+
 #### Start server
 ```
 python manage.py runserver
