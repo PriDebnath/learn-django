@@ -18,6 +18,10 @@ pipenv --version
 ```
 pipenv shell
 ```
+or if you want to specific about python version
+```
+pipenv --python 3.10 shell
+```
 
 #### Install packages mentioned in project's requirements.txt file
 ```
